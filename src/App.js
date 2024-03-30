@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from "./Navbar/Navbar";
+import Home from "./Home/home";
+import Vehicles from "./Vehicles/vehicles";
+import About from "./About/about";
+import Pricing from "./Pricing/pricing";
+import Contact from "./Contact/contact";
+import ErrorPage from "./ErrorPage/erroroage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component {
+
+  //Loading screen
+  constructor() {
+    super();
+    setTimeout(
+      function () {
+        let loader = document.getElementById("loader")
+        loader.classList.add("load")
+      }, 5000);
+  }
+
+
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+          <NavBar />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/vehicles" element={<Vehicles />} />
+            <Route path="/aboutus" element={<About />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route  path="/123" element={<ErrorPage />} />
+          </Routes>
+         <div id="loader"></div>
+        </div>
+      </BrowserRouter>
+
+    );
+  }
 }
 
 export default App;

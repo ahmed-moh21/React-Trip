@@ -1,0 +1,67 @@
+.textar-fo{
+    width: 29rem;
+    height: 29vh;
+}
+.wid-te{
+    width: 25rem;
+}
+.wid-fa{
+    margin-left: -2rem;
+    display: flex;
+        justify-content: start;
+        align-items: flex-start;
+
+}
+.sub-fo-bu{
+    border: 1px solid;
+    width: 10rem;
+    padding: 10px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    background-color: black;
+    letter-spacing: 2px;
+    border: none;
+    margin: -1rem 0rem -3rem -1rem
+}
+
+@media screen and (max-width: 770px) {
+    .wid-fa{
+       
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        height: 22vh;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+   .textar-fo{
+    width: 47rem;
+    height: 29vh;
+   }
+   .wid-te{
+    width: 30rem;
+}
+}
+
+@media screen and (max-width: 750px) {
+    .textar-fo{
+        width: 40rem;
+        height: 29vh;
+       }
+       .wid-te{
+        width: 25rem;
+    }
+ }
+
+ @media screen and (max-width: 680px) {
+    .textar-fo{
+        width: 29rem;
+        height: 29vh;
+    }
+    .wid-te{
+        width: 25rem;
+    }
+ }
+
+ 

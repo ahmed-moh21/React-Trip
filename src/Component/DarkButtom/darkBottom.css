@@ -1,0 +1,32 @@
+.Dark-page {
+    position: absolute;
+    top: 1.9rem;
+    left: 15rem;
+    transition: all 1.3s ease-in-out;
+    transform: translateY(-70px);
+    z-index: 910;
+}
+
+.Dark-page1 {
+    transform: translateY(0px);
+}
+
+.mode-dar-k {
+    --background-d: #607d8b7d !important;
+    --background: black !important;
+    --color : white !important;
+   
+}
+.mode-dar-p{
+    filter: brightness(0.5);
+    background-color: black;
+    transition: all 1.3s ease-in-out;
+}
+
+/*
+:root {
+    --background: black;
+    --color : white;
+  } 
+  color: var(--text);
+ */

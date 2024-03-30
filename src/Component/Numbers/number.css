@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.number-sec {
+  width: 100%;
+  height: 80vh;
+  background-color: #121317;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.wrapper {
+  width: 12rem;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 2em;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: #21242b;
+  border-bottom: 10px solid #18f98f;
+}
+
+
+
+.containers p {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-family: cursive;
+}
+
+ul#countdown {
+  position: relative;
+  top: 0%;
+  transform: translateY(0%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #adafb2;
+  border-width: 1px 0;
+  overflow: hidden;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+ul#countdown li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  display: inline-block;
+  width: 25%;
+  font-size: 72px;
+  font-size: 6vw;
+  text-align: center;
+
+}
+
+ul#countdown li .label {
+  color: #adafb2;
+  font-size: 18px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+
+.animated-container {
+  width: 28rem;
+}
+
+
+@media screen and (max-width: 1022px) {
+  .number-sec {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .number-sec {
+    flex-direction: column;
+    height: 170vh;
+  }
+}
