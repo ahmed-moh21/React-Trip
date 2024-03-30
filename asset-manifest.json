@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React-Trip/static/css/main.ee28944c.css",
+    "main.js": "/React-Trip/static/js/main.10ac7ea0.js",
+    "static/js/787.a00d7a99.chunk.js": "/React-Trip/static/js/787.a00d7a99.chunk.js",
+    "static/media/cor11.jpg": "/React-Trip/static/media/cor11.997ca79f7bdccdef645c.jpg",
+    "static/media/vehicles-title.jpg": "/React-Trip/static/media/vehicles-title.56f8085cb11a7d384a88.jpg",
+    "static/media/single-img-1.png": "/React-Trip/static/media/single-img-1.cec8170b72e6ba6ba0ba.png",
+    "static/media/about-img-2.png": "/React-Trip/static/media/about-img-2.661316b410dc3b59f65c.png",
+    "static/media/user.jpg": "/React-Trip/static/media/user.1700d4ea2128f2cd06aa.jpg",
+    "static/media/title-img-1.jpg": "/React-Trip/static/media/title-img-1.ca4f6e333847fd82e2ad.jpg",
+    "static/media/vehicles-img-3.jpg": "/React-Trip/static/media/vehicles-img-3.816b2b085f16be171ddd.jpg",
+    "static/media/vehicles-img-6.jpg": "/React-Trip/static/media/vehicles-img-6.557ff65534af9adcc2a6.jpg",
+    "static/media/single-img-2.png": "/React-Trip/static/media/single-img-2.ae227fd7625eb60a16db.png",
+    "static/media/vehicles-img-8.jpg": "/React-Trip/static/media/vehicles-img-8.7efc8b0b0b42e3bce21f.jpg",
+    "static/media/about-img-1.jpg": "/React-Trip/static/media/about-img-1.bf4f191cc5b0ed77b964.jpg",
+    "static/media/contact-img-1-1536x530.jpg": "/React-Trip/static/media/contact-img-1-1536x530.bd259740cfceaf41c6a9.jpg",
+    "static/media/vehicles-img-1.jpg": "/React-Trip/static/media/vehicles-img-1.cb9007c8801d32bbfe66.jpg",
+    "static/media/author-2.png": "/React-Trip/static/media/author-2.60a67a63426c0eb85027.png",
+    "static/media/vehicles-img-7.jpg": "/React-Trip/static/media/vehicles-img-7.2f49ca9325dc0df94495.jpg",
+    "static/media/author-3.png": "/React-Trip/static/media/author-3.9d094b96573e26a6d827.png",
+    "static/media/author-1.png": "/React-Trip/static/media/author-1.4f59d618e40a729e534d.png",
+    "static/media/vehicles-img-2.jpg": "/React-Trip/static/media/vehicles-img-2.42787c207118e78e02c6.jpg",
+    "static/media/vehicles-img-5.jpg": "/React-Trip/static/media/vehicles-img-5.6314a6535bab4da4c5e8.jpg",
+    "static/media/vehicles-img-4.jpg": "/React-Trip/static/media/vehicles-img-4.b9e722c29825e3d1fe3e.jpg",
+    "static/media/single-img-3-300x137.png": "/React-Trip/static/media/single-img-3-300x137.f1223d649dca29f5ce74.png",
+    "index.html": "/React-Trip/index.html",
+    "main.ee28944c.css.map": "/React-Trip/static/css/main.ee28944c.css.map",
+    "main.10ac7ea0.js.map": "/React-Trip/static/js/main.10ac7ea0.js.map",
+    "787.a00d7a99.chunk.js.map": "/React-Trip/static/js/787.a00d7a99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee28944c.css",
+    "static/js/main.10ac7ea0.js"
+  ]
+}
